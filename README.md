@@ -22,19 +22,7 @@ text
 - Cute toddler in pink frock holding a toy
 - A model wearing a translucent gown under stage lights
 
-User Prompt
-   │
-   └──► Prompt Enhancer (LLM)
-             │
-             └──► Prompt Filter (Fashion Only)
-                        │
-                        └──► LoRA-tuned Stable Diffusion
-                                   │
-                                   └──► SwinIR (Super-Resolution)
-                                              │
-                                              └──► NudeNet (NSFW Filtering)
-                                                         │
-                                                         └──► Gradio UI Output
+User Prompt -> Prompt Enhancer (LLM) -> Prompt Filter (Fashion Only) -> LoRA-tuned Stable Diffusion -> SwinIR (Super-Resolution) -> NudeNet (NSFW Filtering) ->Gradio UI Output
                                                         
 Tech Stack
 Language: Python 3.11
